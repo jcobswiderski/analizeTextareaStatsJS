@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: burlywood;
+    padding: 15px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    background-color: burlywood;
+    width: 12em;
+}
+
+.stats h3 {
+    padding: 10px;
+}
+
+.stats span {
+    padding: 0 5px 10px 5px;
+}
+
+#textarea {
+    display: block;
+    padding: 15px;
+}
+
+#submit {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    /* TODO: prettier button */
+}
